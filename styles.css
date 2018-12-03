@@ -1,0 +1,58 @@
+/*------our custome styles here-------*/
+
+#first {
+    width: 800px;
+    height: 800px;
+    background-color: red;
+    position: relative;
+    margin: 60px auto;
+
+}
+#first #second{
+    width: 300px;
+    height: 300px;
+    background: green;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    float: right;
+    border-radius: 15px;
+    box-shadow: 0 0 2px white;
+}
+
+#cloud{
+    float: right;
+    margin-right:150px;
+    margin-top: 375px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Libre Baskerville', serif;
+
+}
+#cloud_data{
+    color:white;
+}
+.weather_details{
+    padding-left: 80px;
+}
+.details{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Archivo Black', sans-serif;
+    color: #f7e400;
+}
+.text{
+    font-family: 'Playfair Display SC', serif;
+}
+#temp,#pre,#hmdt,#max,#min{
+color: white;
+}
+#circle{
+    background-color: #d4e0ec;
+    width: 50px;
+    height: 50px;
+    float: right;
+    padding: 25px;
+    border-radius: 50%;
+    margin: -50px;
+}
